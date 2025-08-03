@@ -6,6 +6,7 @@
     <title>Пурифайеры</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/text.css" />
     <link rel="stylesheet" href="./css/fonts.css" />
     <link
       rel="stylesheet"
@@ -19,16 +20,20 @@
         <nav class="header__nav">
           <ul class="header__list">
             <li class="header__item">
-              <a class="headef__link" href="#"> О нас </a>
+              <a class="header__link text-p-default" href="#about">О нас</a>
             </li>
             <li class="header__item">
-              <a class="headef__link" href="#"> Услуги </a>
+              <a class="header__link text-p-default" href="#services">Услуги</a>
             </li>
             <li class="header__item">
-              <a class="headef__link" href="#"> Каталог пурифайеров </a>
+              <a class="header__link text-p-default" href="#catalog"
+                >Каталог пурифайеров</a
+              >
             </li>
             <li class="header__item">
-              <a class="headef__link" href="#"> Контакты </a>
+              <a class="header__link text-p-default" href="#contacts"
+                >Контакты</a
+              >
             </li>
           </ul>
         </nav>
@@ -37,8 +42,10 @@
 
     <section class="hero">
       <div class="container hero__container">
-        <h1 class="hero__title">Обслуживание и аренда пурифайеров</h1>
-        <p class="hero__descr">
+        <h1 class="hero__title heading-h2">
+          Обслуживание и аренда пурифайеров
+        </h1>
+        <p class="hero__descr text-p-default">
           Сломался пурифайер? Нужна замена фильтров? Или просто хотите взять
           оборудование в аренду без лишних хлопот? Обратитесь к тем, кто знает о
           пурифайерах всё! Более десяти лет наша компания оказывает полный
@@ -47,15 +54,15 @@
           восстановить работу оборудования и обеспечить их доступом к чистой
           питьевой воде.
         </p>
-        <a class="hero__link" href="#">Оставить заявку</a>
+        <a class="hero__link text-p-subtitle" href="#submit">Оставить заявку</a>
       </div>
     </section>
 
-    <section class="services">
+    <section id="services" class="services">
       <div class="container">
         <div class="services__intro">
-          <h2 class="services__title">Наши услуги</h2>
-          <p class="services__descr">
+          <h2 class="services__title heading-h2">Наши услуги</h2>
+          <p class="services__descr text-p-default">
             Поддержка пурифайера в исправном рабочем состоянии влияет на
             качество потребляемой вами воды. Мы предлагаем полный спектр услуг,
             чтобы ваш аппарат всегда работал без сбоев.
@@ -72,9 +79,11 @@
               height="122"
               alt="Service icon"
             />
-            <span class="services__offers-title">Обслуживание</span>
+            <span class="services__offers-title text-p-large"
+              >Обслуживание</span
+            >
           </div>
-          <p class="services__offer-descr">
+          <p class="services__offer-descr text-p-default">
             Без регулярной чистки и дезинфекции в пурифайере могут скапливаться
             бактерии и вредные примеси. Техобслуживание устраняет эти риски,
             продлевает срок службы устройства и обеспечивает стабильное качество
@@ -96,9 +105,9 @@
               height="113"
               alt="Repair icon"
             />
-            <span class="services__offers-title">Ремонт</span>
+            <span class="services__offers-title text-p-large">Ремонт</span>
           </div>
-          <p class="services__offer-descr">
+          <p class="services__offer-descr text-p-default">
             Если ваш пурифайер работает нестабильно или вышел из строя
             полностью, не переживайте — мы разберёмся. Наши мастера проведут
             диагностику, определят причину. Будь то небольшой сбой или серьезная
@@ -112,7 +121,7 @@
           <div class="services__offers-word services__offers-word--five">
             <span class="services__offers-word-blur">Демонтаж</span>
           </div>
-          <p class="services__offer-descr">
+          <p class="services__offer-descr text-p-default">
             Правильная установка пурифайера — залог его длительной и надёжной
             работы. Мы выполним монтаж любой сложности, включая установку с
             подключением к системе водоснабжения. При необходимости — аккуратно
@@ -126,7 +135,9 @@
               height="115"
               alt="Installation icon"
             />
-            <span class="services__offers-title">Монтаж/Демонтаж</span>
+            <span class="services__offers-title text-p-large"
+              >Монтаж/Демонтаж</span
+            >
           </div>
           <div class="services__offers-word services__offers-word--fivesix">
             <span class="services__offers-word-blur">Демонтаж</span>
@@ -136,7 +147,7 @@
           <div class="services__offers-word services__offers-word--seven">
             <span class="services__offers-word-blur">Аренда</span>
           </div>
-          <p class="services__offer-descr">
+          <p class="services__offer-descr text-p-default">
             Если не хотите покупать пурифайер – возьмите его в аренду. Удобно
             для офиса, мероприятий или временных нужд. Поможем подобрать модель
             под ваши задачи. Вы получите готовый к использованию кулер без
@@ -149,7 +160,7 @@
               height="115"
               alt="Rent icon"
             />
-            <span class="services__offers-title">Аренда</span>
+            <span class="services__offers-title text-p-large">Аренда</span>
           </div>
           <div class="services__offers-word services__offers-word--eight">
             <span class="services__offers-word-blur">Аренда</span>
@@ -158,11 +169,11 @@
       </div>
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
       <div class="container">
         <div class="about__intro">
-          <h3 class="about__title">О нас</h3>
-          <p class="about__descr">
+          <h2 class="about__title heading-h2">О нас</h2>
+          <p class="about__descr text-p-default">
             Мы работаем в <span class="about__descr-bold">Екатеринбурге</span> и
             <span class="about__descr-bold">Свердловской области</span>,
             обслуживая пурифайеры уже
@@ -181,7 +192,7 @@
             alt="Check icon"
           />
         </div>
-        <h4 class="about__subtitle">Наши преимущества</h4>
+        <h2 class="about__subtitle heading-h2">Наши преимущества</h2>
         <div class="about__advantages">
           <div class="about__advantages-wrap">
             <div class="about__advantages-paragraph">
@@ -215,8 +226,8 @@
             loading="lazy"
             class="about__advantages-icon"
             src="./image/icons/like-icon.svg"
-            width="254"
-            height="330"
+            width="204"
+            height="270"
           />
           <div class="about__advantages-wrap">
             <div class="about__advantages-paragraph">
@@ -248,31 +259,33 @@
       </div>
     </section>
 
-    <section class="goods">
-      <h2 class="goods__title">Пурифайеры для аренды</h2>
-      <p class="goods__descr">
+    <section id="catalog" class="goods">
+      <h2 class="goods__title heading-h2">Пурифайеры для аренды</h2>
+      <p class="goods__descr text-p-default">
         Если вы рассматриваете вариант временного использования устройства,
         обратите внимание на популярные модели
       </p>
 
       <div class="goods__wrap">
-        <div class="custom__arrow-prev">
-          <img
-            loading="lazy"
-            src="./image/icons/prev-icon.svg"
-            width="70"
-            height="70"
-            alt="Prev"
-          />
-        </div>
-        <div class="custom__arrow-next">
-          <img
-            loading="lazy"
-            src="./image/icons/next-icon.svg"
-            width="70"
-            height="70"
-            alt="Next"
-          />
+        <div class="goods__wrap-btns">
+          <div class="custom__arrow-prev">
+            <img
+              loading="lazy"
+              src="./image/icons/prev-icon.svg"
+              width="70"
+              height="70"
+              alt="Prev"
+            />
+          </div>
+          <div class="custom__arrow-next">
+            <img
+              loading="lazy"
+              src="./image/icons/next-icon.svg"
+              width="70"
+              height="70"
+              alt="Next"
+            />
+          </div>
         </div>
         <div class="swiper goods__slider">
           <div class="swiper-wrapper">
@@ -283,12 +296,12 @@
                 alt="Photo of water purifier, model Aqua Alliance A60s-LC"
               />
               <h4 class="goods__slider-title">Aqua Alliance A60s-LC</h4>
-              <p class="goods__slider-descr">
+              <p class="goods__slider-descr text-p-small">
                 Проточный кулер для воды с компрессорным охлаждением.
                 UF-очистка. Большие баки (7л холодной, 5л горячей воды).
                 Глянцевый черный корпус. Безопасные краны «нажим чашкой».
               </p>
-              <a class="goods__link" href="#">Подробнее</a>
+              <a class="goods__link text-p-default" href="#">Подробнее</a>
             </div>
             <div
               class="swiper-slide goods__slider-card goods__slider-card--green"
@@ -299,12 +312,14 @@
                 alt="Photo of water purifier, model Ecotronic M40-U4L"
               />
               <h4 class="goods__slider-title">Ecotronic M40-U4L</h4>
-              <p class="goods__slider-descr">
+              <p class="goods__slider-descr text-p-small">
                 Пурифайер с ультрафильтрацией (UF-мембрана). Надежный бак без
                 швов. Защита от детей на горячей воде. Стильный дизайн. Удобные
                 краны «нажим кружкой»
               </p>
-              <a class="goods__link goods__link--green" href="#">Подробнее</a>
+              <a class="goods__link text-p-default goods__link--green" href="#"
+                >Подробнее</a
+              >
             </div>
             <div class="swiper-slide goods__slider-card">
               <img
@@ -313,13 +328,13 @@
                 alt="Photo of water purifier, model Ecotronic M11-U4L"
               />
               <h4 class="goods__slider-title">Aqua Alliance A60s-LC</h4>
-              <p class="goods__slider-descr">
+              <p class="goods__slider-descr text-p-small">
                 Компактный пурифайер с ультрафильтрацией. Четыре ступени
                 очистки. Три крана подачи. Защита от детей. Электронная защита
                 от протечек. Прочный лоток из нержавеющей стали. Надежные
                 корейские фильтры.
               </p>
-              <a class="goods__link" href="#">Подробнее</a>
+              <a class="goods__link text-p-default" href="#">Подробнее</a>
             </div>
             <div
               class="swiper-slide goods__slider-card goods__slider-card--green"
@@ -330,12 +345,14 @@
                 alt="Photo of water purifier, model Aqua Alliance A60s-LC"
               />
               <h4 class="goods__slider-title">Aqua Alliance A60s-LC</h4>
-              <p class="goods__slider-descr">
+              <p class="goods__slider-descr text-p-small">
                 Проточный кулер для воды с компрессорным охлаждением.
                 UF-очистка. Большие баки (7л холодной, 5л горячей воды).
                 Глянцевый черный корпус. Безопасные краны «нажим чашкой».
               </p>
-              <a class="goods__link goods__link--green" href="#">Подробнее</a>
+              <a class="goods__link text-p-default goods__link--green" href="#"
+                >Подробнее</a
+              >
             </div>
             <div class="swiper-slide goods__slider-card">
               <img
@@ -344,12 +361,12 @@
                 alt="Photo of water purifier, model Ecotronic M40-U4L"
               />
               <h4 class="goods__slider-title">Ecotronic M40-U4L</h4>
-              <p class="goods__slider-descr">
+              <p class="goods__slider-descr text-p-small">
                 Пурифайер с ультрафильтрацией (UF-мембрана). Надежный бак без
                 швов. Защита от детей на горячей воде. Стильный дизайн. Удобные
                 краны «нажим кружкой»
               </p>
-              <a class="goods__link" href="#">Подробнее</a>
+              <a class="goods__link text-p-default" href="#">Подробнее</a>
             </div>
             <div
               class="swiper-slide goods__slider-card goods__slider-card--green"
@@ -360,18 +377,20 @@
                 alt="Photo of water purifier, model Ecotronic M11-U4L"
               />
               <h4 class="goods__slider-title">Aqua Alliance A60s-LC</h4>
-              <p class="goods__slider-descr">
+              <p class="goods__slider-descr text-p-small">
                 Компактный пурифайер с ультрафильтрацией. Четыре ступени
                 очистки. Три крана подачи. Защита от детей. Электронная защита
                 от протечек. Прочный лоток из нержавеющей стали. Надежные
                 корейские фильтры.
               </p>
-              <a class="goods__link goods__link--green" href="#">Подробнее</a>
+              <a class="goods__link text-p-default goods__link--green" href="#"
+                >Подробнее</a
+              >
             </div>
           </div>
         </div>
       </div>
-      <a class="goods__fool-link" href="#"
+      <a class="goods__fool-link text-p-large" href="#"
         >Открыть полный каталог пурифайеров</a
       >
     </section>
@@ -383,47 +402,47 @@
         <span class="line-1"></span>
         <span class="line-2"></span>
         <span class="line-3"></span>
-        <h3 class="scheme__title">Как заказать услугу</h3>
+        <h3 class="scheme__title heading-h2">Как заказать услугу</h3>
         <div class="scheme__wrap">
           <div class="scheme__item scheme__item--1">
             <span class="scheme__num">1</span>
-            <div class="scheme__text">
+            <div class="scheme__text text-p-default">
               Оставьте заявку по телефону, email или форме обратной связи.
               Опишите проблему/задачу: обслуживание, ремонт пурифайера, аренда.
             </div>
-            <div class="scheme__label">Заявка</div>
+            <div class="scheme__label text-p-large">Заявка</div>
           </div>
           <div class="scheme__item scheme__item--2">
             <span class="scheme__num">2</span>
-            <div class="scheme__text">
+            <div class="scheme__text text-p-default">
               Наш мастер приедет в удобное для вас время. Проведет осмотр.
               Определит объем работ или причину поломки. Назовет точную
               стоимость.
             </div>
-            <div class="scheme__label">Диагностика</div>
+            <div class="scheme__label text-p-large">Диагностика</div>
           </div>
           <div class="scheme__item scheme__item--3">
             <span class="scheme__num">3</span>
-            <div class="scheme__text">
+            <div class="scheme__text text-p-default">
               Выполним согласованный перечень работ, будь-то: замена фильтров
               пурифайера, чистка, дезинфекция, устранение неисправностей.
             </div>
-            <div class="scheme__label">Обслуживание</div>
+            <div class="scheme__label text-p-large">Обслуживание</div>
           </div>
           <div class="scheme__item scheme__item--4">
             <span class="scheme__num">4</span>
-            <div class="scheme__text">
+            <div class="scheme__text text-p-default">
               Убедимся, что всё работает нормально. Проверим качество воды.
               Покажем результат.
             </div>
-            <div class="scheme__label">Проверка</div>
+            <div class="scheme__label text-p-large">Проверка</div>
           </div>
           <div class="scheme__item scheme__item--5">
             <span class="scheme__num">5</span>
-            <div class="scheme__text">
+            <div class="scheme__text text-p-default">
               Подпишем документы, предоставим гарантию на выполненные работы.
             </div>
-            <div class="scheme__label">Акт выполненных работ</div>
+            <div class="scheme__label text-p-large">Акт выполненных работ</div>
           </div>
 
           <img
@@ -460,7 +479,7 @@
 
     <section class="reviews">
       <div class="container">
-        <h3 class="reviews__title">Отзывы наших клиентов</h3>
+        <h3 class="reviews__title heading-h2">Отзывы наших клиентов</h3>
         <div class="reviews__arrow-prev">
           <img
             loading="lazy"
@@ -482,15 +501,15 @@
         <div class="swiper reviews__slider">
           <div class="swiper-wrapper">
             <div class="swiper-slide reviews__card">
-              <h5 class="reviews__card-name">Николай</h5>
-              <p class="reviews__card-descr">
+              <h5 class="reviews__card-name text-p-large">Николай</h5>
+              <p class="reviews__card-descr text-p-default">
                 Быстро починили офисный пурифайер после протечки. Цена
                 соответствовала озвученной. Всем рекомендую!
               </p>
             </div>
             <div class="swiper-slide reviews__card">
-              <h5 class="reviews__card-name">Анна</h5>
-              <p class="reviews__card-descr">
+              <h5 class="reviews__card-name text-p-large">Анна</h5>
+              <p class="reviews__card-descr text-p-default">
                 Компания регулярно обслуживает кулеры во всей нашей сети
                 магазинов. Мастера пунктуальны, а вода после установки новых
                 фильтров всегда кристально чистая и вкусная. Спасибо за ваш
@@ -498,22 +517,22 @@
               </p>
             </div>
             <div class="swiper-slide reviews__card">
-              <h5 class="reviews__card-name">Екатерина</h5>
-              <p class="reviews__card-descr">
+              <h5 class="reviews__card-name text-p-large">Екатерина</h5>
+              <p class="reviews__card-descr text-p-default">
                 Взяли Ecotronic M40 в аренду на мероприятие. Отличный аппарат,
                 вода вкусная, подключили быстро. Благодарим за оперативность
               </p>
             </div>
             <div class="swiper-slide reviews__card">
-              <h5 class="reviews__card-name">Николай</h5>
-              <p class="reviews__card-descr">
+              <h5 class="reviews__card-name text-p-large">Николай</h5>
+              <p class="reviews__card-descr text-p-default">
                 Быстро починили офисный пурифайер после протечки. Цена
                 соответствовала озвученной. Всем рекомендую!
               </p>
             </div>
             <div class="swiper-slide reviews__card">
-              <h5 class="reviews__card-name">Анна</h5>
-              <p class="reviews__card-descr">
+              <h5 class="reviews__card-name text-p-large">Анна</h5>
+              <p class="reviews__card-descr text-p-default">
                 Компания регулярно обслуживает кулеры во всей нашей сети
                 магазинов. Мастера пунктуальны, а вода после установки новых
                 фильтров всегда кристально чистая и вкусная. Спасибо за ваш
@@ -521,8 +540,8 @@
               </p>
             </div>
             <div class="swiper-slide reviews__card">
-              <h5 class="reviews__card-name">Екатерина</h5>
-              <p class="reviews__card-descr">
+              <h5 class="reviews__card-name text-p-large">Екатерина</h5>
+              <p class="reviews__card-descr text-p-default">
                 Взяли Ecotronic M40 в аренду на мероприятие. Отличный аппарат,
                 вода вкусная, подключили быстро. Благодарим за оперативность
               </p>
@@ -530,7 +549,7 @@
           </div>
         </div>
 
-        <h3 class="reviews__heading">Часто задаваемые вопросы</h3>
+        <h3 class="reviews__heading heading-h2">Часто задаваемые вопросы</h3>
 
         <div class="reviews__accordion">
           <div class="reviews__item">
@@ -592,53 +611,57 @@
       </div>
     </section>
 
-    <section class="request">
+    <section id="submit" class="request">
       <div class="container">
-        <h2 class="request__title">Нужна чистая вода в Екатеринбурге?</h2>
+        <h2 class="request__title heading-h2">
+          Нужна чистая вода в Екатеринбурге?
+        </h2>
         <div class="request__wrapper">
           <div class="request__info">
-            <h6 class="request__info-title">
+            <h6 class="request__info-title text-p-medium">
               Обращайтесь к нам, если вам требуется:
             </h6>
             <ul class="request__info-list">
               <li class="request__info-item">
                 <img src="./image/icons/list-check-ikon.svg" />
-                <span class="request__info-text"
+                <span class="request__info-text text-p-default"
                   >Плановое обслуживание или срочный ремонт;</span
                 >
               </li>
               <li class="request__info-item">
                 <img src="./image/icons/list-check-ikon.svg" />
-                <span class="request__info-text"
+                <span class="request__info-text text-p-default"
                   >Дезинфекция после долгого простоя;</span
                 >
               </li>
               <li class="request__info-item">
                 <img src="./image/icons/list-check-ikon.svg" />
-                <span class="request__info-text">Замена на новую модель;</span>
+                <span class="request__info-text text-p-default"
+                  >Замена на новую модель;</span
+                >
               </li>
               <li class="request__info-item">
                 <img src="./image/icons/list-check-ikon.svg" />
-                <span class="request__info-text"
+                <span class="request__info-text text-p-default"
                   >Замена фильтров по истечении срока;</span
                 >
               </li>
               <li class="request__info-item">
                 <img src="./image/icons/list-check-ikon.svg" />
-                <span class="request__info-text"
+                <span class="request__info-text text-p-default"
                   >Аренда надежного пурифайера (напольного, настольного, с
                   газацией);</span
                 >
               </li>
               <li class="request__info-item">
                 <img src="./image/icons/list-check-ikon.svg" />
-                <span class="request__info-text"
+                <span class="request__info-text text-p-default"
                   >Установка с подключением к системе водоснабжения;</span
                 >
               </li>
               <li class="request__info-item">
                 <img src="./image/icons/list-check-ikon.svg" />
-                <span class="request__info-text"
+                <span class="request__info-text text-p-default"
                   >Консультация по выбору: купить пурифайер с обратным осмосом
                   или с ультрафильтрацией; проточный или настольный кулер для
                   воды.
@@ -647,7 +670,7 @@
             </ul>
           </div>
           <div class="request__request">
-            <p class="request__request-descr">
+            <p class="request__request-descr text-p-medium">
               Оставьте заявку прямо сейчас. Мы свяжемся с вами, чтобы обсудить
               все детали и подобрать лучшее решение.
             </p>
@@ -664,7 +687,7 @@
                   type="text"
                   name="name"
                   placeholder="Имя"
-                  class="request__form-input"
+                  class="request__form-input text-p-medium"
                 />
               </div>
               <div
@@ -682,10 +705,10 @@
                   type="tel"
                   name="phone"
                   placeholder="+7 (___)___-__-__"
-                  class="request__form-input"
+                  class="request__form-input text-p-medium"
                 />
               </div>
-              <button type="submit" class="request__form-button">
+              <button type="submit" class="request__form-button text-p-large">
                 Оставить заявку
               </button>
             </form>
@@ -703,11 +726,11 @@
       ></iframe>
     </section>
 
-    <footer class="footer">
+    <footer id="contacts" class="footer">
       <div class="container footer__container">
         <div class="footer__contact">
-          <div class="footer__contact-label">Адрес:</div>
-          <address class="footer__contact-address">
+          <div class="footer__contact-label text-p-large">Адрес:</div>
+          <address class="footer__contact-address text-p-medium">
             <a
               href="https://yandex.ru/maps/?text=Московская область, Одинцово, Внуковская улица, 7А"
               target="_blank"
@@ -718,14 +741,20 @@
           </address>
         </div>
         <div class="footer__connection">
-          <div class="footer__connection-title">Контакты:</div>
+          <div class="footer__connection-title text-p-large">Контакты:</div>
           <div class="footer__connection-item">
-            <a href="tel:+99999999999" class="footer__connection-link">
+            <a
+              href="tel:+99999999999"
+              class="footer__connection-link text-p-medium"
+            >
               +9 (999) 999-99-99
             </a>
           </div>
           <div class="footer__connection-item">
-            <a href="mailto:info@example.com" class="footer__connection-link">
+            <a
+              href="mailto:info@example.com"
+              class="footer__connection-link text-p-medium"
+            >
               pochta@gmail.com
             </a>
           </div>
